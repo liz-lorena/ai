@@ -2,6 +2,7 @@
 layout: post
 title: Colorful Sands
 img: 2022-colorful-sands.png
+thumbnail: 2022-colorful-sands-expanded.png
 comments: true
 excerpt: "Prompt: pastel colorful landscape covered in giant gemstones matte painting trending on artstation HQ; Generator: DreamStudio by Stability.ai"
 tag: landscape
