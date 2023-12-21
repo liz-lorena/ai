@@ -3,7 +3,7 @@
 {% for post in site.posts %}
 	
 <div class="post {{ post.tag }}"> 
-     <a href="{{ site.url }}/ai/img/{{ post.img }}" title="{{ post.title }}, {{ post.date | date: '%B %Y' }}" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
+     <a href="{{ site.url }}/ai/img/{{ post.thumbnail }}" title="{{ post.title }}, {{ post.date | date: '%B %Y' }}" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
 	     <img src="{{ site.url }}/ai/img/{{ post.img }}" alt="{{ post.title }} by Liz Lorena">
 	</a>	
 </div>
