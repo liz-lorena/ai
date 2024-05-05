@@ -20,12 +20,9 @@
     <meta name="og:image" content="{{ site.logo }}">
     <meta name="description" content="{{ site.description }}">
     <meta name="title" content="{{ site.title }}">
-    <meta name="keywords" content="art, drawings, illustrations, digital art">
     <meta name="author" content="{{ site.author_name }}">
 
     <title>{{ site.title }} - {{ page.title }}</title>
-
-    <link rel="me" href="https://mastodon.social/@lizlorena">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	
@@ -67,7 +64,7 @@
       	    	    
      <div uk-lightbox="animation: fade">
      <p style="text-align:center;line-height: 135%;">
-	     <a href="{{ site.url }}/art/img/{{ page.img }}" data-caption="{{ page.title }} by Liz Lorena Berberena, {{ page.date | date: '%B %Y' }}"><img src="{{ site.url }}/art/img/{{ page.img }}" alt="{{ page.title }} by Liz Lorena Berberena"></a></p>
+	     <a href="{{ site.url }}/ai/img/{{ page.img }}" data-caption="{{ page.title }} by Liz Lorena, {{ page.date | date: '%B %Y' }}"><img src="{{ site.url }}/ai/img/{{ page.img }}" alt="{{ page.title }} by Liz Lorena"></a></p>
 	     
 	      <p style="text-align:center;line-height: 135%;font-size:20px;" class="description"><strong>{{ page.title }}</strong>
 	    </p>
@@ -91,7 +88,7 @@
 </div>
   
 <script id="dsq-count-scr" src="//{{ site.disqus.shortname }}.disqus.com/count.js" async></script>  
-<script src="/art/mode-switcher.js"></script>
+<script src="/ai/mode-switcher.js"></script>
     
 </body>
 </html>
